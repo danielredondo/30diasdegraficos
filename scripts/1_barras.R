@@ -5,7 +5,7 @@ library(dplyr)
 #Importar ENSE -> https://danielredondo.com/posts/20181010_ens/
 load("datasets/ense2017.RData")
 
-# Quitar NAs
+# Quitar NS/NC y NAs
 tabla <- tabla %>% filter(S110<998) %>% filter(!is.na(S110))
 tabla <- tabla %>% filter(S109<998) %>% filter(!is.na(S109))
 
@@ -14,7 +14,8 @@ tabla <- tabla %>% mutate(imc = 10000 * S110/(S109^2))
 summary(tabla$imc)
 
 ggplot(tabla, aes(x = imc)) +
-  geom_histogram(aes(y = (..count..)/sum(..count..)), col = "black", fill = "firebrick", binwidth = 1) + 
+  geom_histogram(aes(y = (..count..)/sum(..count..)), col = "black",
+                 fill = "firebrick", binwidth = 1) + 
   ggtitle("Índice de masa corporal en adultos (Encuesta Nacional de Salud, 2017)") + 
   scale_x_continuous(name = "Índice de masa corporal", breaks = seq(10, 70, 5),
                      labels = seq(10, 70, 5), limits = c(10, 70)) +
@@ -28,7 +29,6 @@ ggplot(tabla, aes(x = imc)) +
     plot.background = element_rect(fill = "white", color = NA),
     panel.background = element_rect(fill = "white", color = NA),
     legend.background = element_rect(fill = "white", color = NA),
-    #panel.border = element_blank(),
     plot.title = element_text(size = 15, hjust = 0.5, face = "bold")
   )
 
