@@ -19,3 +19,9 @@ Número de visitas diarias a la página de R en Wikipedia en español desde 2018
 Distribución de los premios de lotería de 2018. [Código](scripts/3_burbujas.R).
 
 ![](graficos/3.png)
+
+### Día 4. Gráficos con facetas
+
+Relación entre estadísticas de ataque y defensa según tipo de Pokémon. [Código](scripts/4_facetas.R).
+
+![](graficos/4.png)
