@@ -1,0 +1,121 @@
+Id;Label;House;Heads_of_Houses
+1;"""Lysa Arryn""";"""Arryn""";1
+2;"""Robin Arryn""";"""Arryn""";0
+3;"""Vardis Egen""";"""Arryn""";0
+4;"""Hugh""";"""Arryn""";0
+5;"""Mord""";"""Arryn""";0
+6;"""Joffrey Baratheon""";"""Baratheon""";1
+7;"""Myrcella Baratheon""";"""Baratheon""";0
+8;"""Renly Baratheon""";"""Baratheon""";0
+9;"""Robert Baratheon""";"""Baratheon""";1
+10;"""Tommen Baratheon""";"""Baratheon""";0
+11;"""Jonos Bracken""";"""Stark""";0
+12;"""Knight of House Bracken""";"""Stark""";0
+13;"""Janos Slynt""";"""Baratheon""";0
+14;"""Gregor Clegane""";"""Clegane""";1
+15;"""Sandor Clegane""";"""Clegane""";0
+16;"""Joss Stilwood""";"""Clegane""";0
+17;"""Armeca""";"""Common People""";0
+18;"""Mhaegen""";"""Common People""";0
+19;"""Doreah""";"""Common People""";0
+20;"""Gendry""";"""Common People""";0
+21;"""Masha Heddle""";"""Common People""";0
+22;"""Hot Pie""";"""Common People""";0
+23;"""Little Bird""";"""Common People""";0
+24;"""Lommy""";"""Common People""";0
+25;"""Marillion""";"""Common People""";0
+26;"""Mycah""";"""Common People""";0
+27;"""Ros""";"""Common People""";0
+28;"""Stefan""";"""Common People""";0
+29;"""Shae""";"""Common People""";0
+30;"""Pushcart Man""";"""Common People""";0
+31;"""Street Kid 1""";"""Common People""";0
+32;"""Stable Boy""";"""Common People""";0
+33;"""Commoner 1""";"""Common People""";0
+34;"""Wineseller""";"""Common People""";0
+35;"""Beric Dondarrion""";"""Dondarrion""";0
+36;"""Cohollo""";"""Dothraki""";0
+37;"""Drogo""";"""Dothraki""";1
+38;"""Irri""";"""Dothraki""";0
+39;"""Jhiqui""";"""Dothraki""";0
+40;"""Mago""";"""Dothraki""";0
+41;"""Qotho""";"""Dothraki""";0
+42;"""Rakharo""";"""Dothraki""";0
+43;"""Syrio Forel""";"""Free Cities""";0
+44;"""Illyrio Mopatis""";"""Free Cities""";0
+45;"""Tobho Mott""";"""Free Cities""";0
+46;"""Osha""";"""Free Folk""";0
+47;"""Stiv""";"""Free Folk""";0
+48;"""Wallen""";"""Free Folk""";0
+49;"""Joyeuse Erenford""";"""Frey""";0
+50;"""Stevron Frey""";"""Frey""";0
+51;"""Walder Frey""";"""Frey""";1
+52;"""Walder Rivers""";"""Frey""";0
+53;"""Knight of House Frey""";"""Frey""";0
+54;"""Galbart Glover""";"""Stark""";0
+55;"""Theon Greyjoy""";"""Greyjoy""";0
+56;"""Shagga""";"""Hill Tribes""";0
+57;"""Timett""";"""Hill Tribes""";0
+58;"""Eon Hunter""";"""Arryn""";0
+59;"""Addam Marbrand""";"""Lannister""";0
+60;"""Leo Lefford""";"""Lannister""";0
+61;"""Rickard Karstark""";"""Stark""";0
+62;"""Ser Barristan Selmy""";"""Kingsguard""";0
+63;"""Meryn Trant""";"""Kingsguard""";0
+64;"""Cersei Lannister""";"""Lannister""";0
+65;"""Jaime Lannister""";"""Lannister""";0
+66;"""Kevan Lannister""";"""Lannister""";0
+67;"""Lancel Lannister""";"""Lannister""";0
+68;"""Tyrion Lannister""";"""Lannister""";0
+69;"""Tywin Lannister""";"""Lannister""";1
+70;"""Mirri Maz Duur""";"""Free Cities""";0
+71;"""Knight of House Lynderly""";"""Arryn""";0
+72;"""Jeor Mormont""";"""Mormont""";1
+73;"""Jorah Mormont""";"""Mormont""";0
+74;"""Dareon""";"""Night's Watch""";0
+75;"""Gared""";"""Night's Watch""";0
+76;"""Grenn""";"""Night's Watch""";0
+77;"""Luke""";"""Night's Watch""";0
+78;"""Bowen Marsh""";"""Night's Watch""";0
+79;"""Matthar""";"""Night's Watch""";0
+80;"""Pypar""";"""Night's Watch""";0
+81;"""Rast""";"""Night's Watch""";0
+82;"""Waymar Royce""";"""Night's Watch""";0
+83;"""Jaremy Rykker""";"""Night's Watch""";0
+84;"""Samwell Tarly""";"""Night's Watch""";0
+85;"""Alliser Thorne""";"""Night's Watch""";0
+86;"""Will""";"""Night's Watch""";0
+87;"""Yoren""";"""Night's Watch""";0
+88;"""Bronn""";"""Lannister""";0
+89;"""Catspaw assassin""";"""Common People""";0
+90;"""Ilyn Payne""";"""Payne""";0
+91;"""Albar Royce""";"""Arryn""";0
+92;"""Petyr Baelish""";"""Small Council""";0
+93;"""Grand Maester Pycelle""";"""Small Council""";0
+94;"""Varys""";"""Small Council""";0
+95;"""Jory Cassel""";"""Stark""";0
+96;"""Rodrik Cassel""";"""Stark""";0
+97;"""Hodor""";"""Stark""";0
+98;"""Maester Luwin""";"""Stark""";0
+99;"""Mikken""";"""Stark""";0
+100;"""Septa Mordane""";"""Stark""";0
+101;"""Old Nan""";"""Stark""";0
+102;"""Jeyne Poole""";"""Stark""";0
+103;"""Jon Snow""";"""Stark""";0
+104;"""Arya Stark""";"""Stark""";0
+105;"""Benjen Stark""";"""Stark""";0
+106;"""Bran Stark""";"""Stark""";0
+107;"""Catelyn Stark""";"""Stark""";0
+108;"""Eddard Stark""";"""Stark""";1
+109;"""Rickon Stark""";"""Stark""";0
+110;"""Robb Stark""";"""Stark""";1
+111;"""Sansa Stark""";"""Stark""";0
+112;"""Tomard""";"""Stark""";0
+113;"""Tommy""";"""Stark""";0
+114;"""Maester Aemon""";"""Targaryen""";0
+115;"""Daenerys Targaryen""";"""Targaryen""";1
+116;"""Viserys Targaryen""";"""Targaryen""";1
+117;"""Ser Loras Tyrell""";"""Tyrell""";0
+118;"""Greatjon Umber""";"""Stark""";0
+119;"""Donnel Waynwood""";"""Arryn""";0
+120;"""Willis Wode""";"""Arryn""";0

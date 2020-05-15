@@ -2,26 +2,32 @@
 
 #30díasdegráficos es una iniciativa de [R4ds en español](https://github.com/cienciadedatos/datos-de-miercoles/blob/master/30-dias-de-graficos-2020.md) para conmemorar el nacimiento de Florence Nightingale, en el que se propone crear un gráfico distinto al día.
 
-### Día 1. Gráficos de barras
+### Día 1. Gráfico de barras
 
 Histograma del índice de masa corporal en adultos, según la Encuesta Nacional de Salud de 2017. [Código](scripts/1_barras.R).
 
 ![](graficos/1.png)
 
-### Día 2. Gráficos de líneas
+### Día 2. Gráfico de líneas
 
 Número de visitas diarias a la página de R en Wikipedia en español desde 2018. [Código](scripts/2_lineas.R).
 
 ![](graficos/2.png)
 
-### Día 3. Gráficos de puntos/burbujas
+### Día 3. Gráfico de puntos/burbujas
 
 Distribución de los premios de lotería de 2018. [Código](scripts/3_burbujas.R).
 
 ![](graficos/3.png)
 
-### Día 4. Gráficos con facetas
+### Día 4. Gráfico con facetas
 
 Relación entre estadísticas de ataque y defensa según tipo de Pokémon. [Código](scripts/4_facetas.R).
 
 ![](graficos/4.png)
+
+### Día 5. Gráfico de arco
+
+Relaciones entre los personajes de la casa Lannister durante la primera temporada de Juego de Tronos. [Código](scripts/5_arco.R).
+
+![](graficos/5.png)
