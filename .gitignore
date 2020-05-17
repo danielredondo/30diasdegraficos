@@ -7,6 +7,7 @@
 *.Rproj.user/
 # System files
 *.DS_Store
+*.html
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
