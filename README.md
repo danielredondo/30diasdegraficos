@@ -31,3 +31,9 @@ Relación entre estadísticas de ataque y defensa según tipo de Pokémon. [Cód
 Relaciones entre los personajes de la casa Lannister durante la primera temporada de Juego de Tronos. [Código](scripts/5_arco.R).
 
 ![](graficos/5.png)
+
+### Día 6. Gráfico de donut :doughnut:
+
+Número de bebés de Estados Unidos que se llaman "Daniel" por década (1880-2009). Hoy he aprovechado para jugar un poco con las tipografías.. [Código](scripts/6_donut.R).
+
+![](graficos/6.png)
