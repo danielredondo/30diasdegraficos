@@ -37,3 +37,9 @@ Relaciones entre los personajes de la casa Lannister durante la primera temporad
 Número de bebés de Estados Unidos que se llaman "Daniel" por década (1880-2009). [Código](scripts/6_donut.R).
 
 ![](graficos/6.png)
+
+### Día 7. Gráfico ridgeline
+
+Relieve de la provincia de Granada. [Código](scripts/7_ridgeline.R).
+
+![](graficos/7.png)
