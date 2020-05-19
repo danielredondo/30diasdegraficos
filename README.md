@@ -43,3 +43,9 @@ Número de bebés de Estados Unidos que se llaman "Daniel" por década (1880-200
 Relieve de la provincia de Granada. [Código](scripts/7_ridgeline.R).
 
 ![](graficos/7.png)
+
+### Día 8. Gráfico de contorno
+
+Imitación de la portada del disco "[Super 8](https://m.eldiario.es/fotos/Portada-disco-Super_EDIIMA20190503_0693_5.jpg)" de Los Planetas. [Código](scripts/8_contorno.R).
+
+![](graficos/8.png)
