@@ -56,3 +56,8 @@ Distribución por género de los comités de las Jornadas de Usuarios de R en Es
 
 ![](graficos/9.png)
 
+### Día 10. Paletas de colores
+
+Atractores coloreados con una paleta de colores basada en la película "El Gran Hotel Budapest" de Wes Anderson. [Código](scripts/10_paleta_colores.R).
+
+![](graficos/10.png)
