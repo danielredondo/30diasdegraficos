@@ -1,6 +1,6 @@
 # #30díasdegráficos
 
-#30díasdegráficos es una iniciativa de [R4ds en español](https://github.com/cienciadedatos/datos-de-miercoles/blob/master/30-dias-de-graficos-2020.md) para conmemorar el nacimiento de Florence Nightingale, en el que se propone crear un gráfico distinto al día.
+#30díasdegráficos con R es una iniciativa de [R4ds en español](https://github.com/cienciadedatos/datos-de-miercoles/blob/master/30-dias-de-graficos-2020.md) para conmemorar el nacimiento de Florence Nightingale, referente femenina de la visualización de datos. En el desafío, se propone crear un gráfico distinto al día y compartir el código que lo genera.
 
 ### Día 1. Gráfico de barras
 
@@ -50,9 +50,9 @@ Imitación de la portada del disco "[Super 8](https://m.eldiario.es/fotos/Portad
 
 ![](graficos/8.png)
 
-### Día 9. Barras apiladas
+### Día 9. Áreas apiladas
 
-Distribución por género de los comités científico y organizador de las Jornadas de Usuarios de R en España. [Código](scripts/9_barras_apiladas.R).
+Distribución por género de los comités de las Jornadas de Usuarios de R en España. [Código](scripts/9_areas_apiladas.R).
 
 ![](graficos/9.png)
 
