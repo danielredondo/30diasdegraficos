@@ -49,3 +49,10 @@ Relieve de la provincia de Granada. [Código](scripts/7_ridgeline.R).
 Imitación de la portada del disco "[Super 8](https://m.eldiario.es/fotos/Portada-disco-Super_EDIIMA20190503_0693_5.jpg)" de Los Planetas. [Código](scripts/8_contorno.R).
 
 ![](graficos/8.png)
+
+### Día 9. Barras apiladas
+
+Distribución por género de los comités científico y organizador de las Jornadas de Usuarios de R en España. [Código](scripts/9_barras_apiladas.R).
+
+![](graficos/9.png)
+
