@@ -61,3 +61,9 @@ Distribución por género de los comités de las Jornadas de Usuarios de R en Es
 Atractores coloreados con una paleta de colores basada en la película "El Gran Hotel Budapest" de Wes Anderson. [Código](scripts/10_paleta_colores.R).
 
 ![](graficos/10.png)
+
+### Día 11. Mapa de calor.
+
+Comorbilidades por grupos de edad en pacientes de cáncer colorrectal. Extraído de [este artículo](https://www.dovepress.com/multimorbidity-by-patient-and-tumor-factors-and-time-to-surgery-among--peer-reviewed-article-CLEP). [Código](scripts/11_heatmap.R).
+
+![](graficos/11.png)
