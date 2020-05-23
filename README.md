@@ -62,8 +62,14 @@ Atractores coloreados con una paleta de colores basada en la película "El Gran 
 
 ![](graficos/10.png)
 
-### Día 11. Mapa de calor.
+### Día 11. Mapa de calor
 
 Comorbilidades por grupos de edad en pacientes de cáncer colorrectal. Extraído de [este artículo](https://www.dovepress.com/multimorbidity-by-patient-and-tumor-factors-and-time-to-surgery-among--peer-reviewed-article-CLEP). [Código](scripts/11_heatmap.R).
 
 ![](graficos/11.png)
+
+### Día 12. Gráfico de piruleta
+
+Puntuación en IMDb de las películas de Pedro Almodóvar. [Código](scripts/12_lollipop.R).
+
+![](graficos/12.png)
