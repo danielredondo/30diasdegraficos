@@ -73,3 +73,9 @@ Comorbilidades por grupos de edad en pacientes de cáncer colorrectal. Extraído
 Puntuación en IMDb de las películas de Pedro Almodóvar. [Código](scripts/12_lollipop.R).
 
 ![](graficos/12.png)
+
+### Día 13. Gráfico de piruleta
+
+Defunciones diarias por coronavirus en España. [Código](scripts/13_tiempo.R).
+
+![](graficos/13.png)
