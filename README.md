@@ -79,3 +79,9 @@ Puntuación en IMDb de las películas de Pedro Almodóvar. [Código](scripts/12_
 Defunciones diarias por coronavirus en España. [Código](scripts/13_tiempo.R).
 
 ![](graficos/13.png)
+
+### Día 14. Gráfico de rectángulos
+
+Duración de las canciones del disco "La ley innata" de Extremoduro. [Código](scripts/14_treemap.R).
+
+![](graficos/14.png)
