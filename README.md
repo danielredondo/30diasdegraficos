@@ -85,3 +85,10 @@ Defunciones diarias por coronavirus en España. [Código](scripts/13_tiempo.R).
 Duración de las canciones del disco "La ley innata" de Extremoduro. [Código](scripts/14_treemap.R).
 
 ![](graficos/14.png)
+
+### Día 15. Dendrograma (treemap).
+
+Jugadores de Real Madrid y Granada, con clustering jerárquico (k = 2) en base a media y potencial en FIFA 20. [Código](scripts/15_dendrograma.R).
+
+![](graficos/15.png)
+
