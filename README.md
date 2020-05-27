@@ -97,3 +97,9 @@ Jugadores de Real Madrid y Granada, con clustering jerárquico (k = 2) en base a
 Número de veces que se menciona a Nairobi por capítulo en la serie La Casa de Papel. En [este hilo de Twitter](https://twitter.com/dredondosanchez/status/1265689410466652166) hay más personajes. [Código](scripts/16_waffle.R).
 
 ![](graficos/16.png)
+
+### Día 17. Diagrama de Sankey
+
+Presupuestos Generales del Estado (España, 2019) según tipos de política. [Código](scripts/17_sankey.R).
+
+![](graficos/17.png)
