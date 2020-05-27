@@ -94,6 +94,6 @@ Jugadores de Real Madrid y Granada, con clustering jerárquico (k = 2) en base a
 
 ### Día 16. Gráfico de waffle :waffle:
 
-Número de veces que se menciona a Nairobi por capítulo en la serie La Casa de Papel. [Código](scripts/16_waffle.R).
+Número de veces que se menciona a Nairobi por capítulo en la serie La Casa de Papel. En [este hilo de Twitter](https://twitter.com/dredondosanchez/status/1265689410466652166) hay más personajes. [Código](scripts/16_waffle.R).
 
 ![](graficos/16.png)
