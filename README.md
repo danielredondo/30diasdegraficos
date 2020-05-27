@@ -86,9 +86,14 @@ Duración de las canciones del disco "La ley innata" de Extremoduro. [Código](s
 
 ![](graficos/14.png)
 
-### Día 15. Dendrograma (treemap).
+### Día 15. Dendrograma (treemap)
 
 Jugadores de Real Madrid y Granada, con clustering jerárquico (k = 2) en base a media y potencial en FIFA 20. [Código](scripts/15_dendrograma.R).
 
 ![](graficos/15.png)
 
+### Día 16. Gráfico de waffle :waffle:
+
+Número de veces que se menciona a Nairobi por capítulo en la serie La Casa de Papel. [Código](scripts/16_waffle.R).
+
+![](graficos/16.png)
