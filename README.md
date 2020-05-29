@@ -103,3 +103,9 @@ Número de veces que se menciona a Nairobi por capítulo en la serie La Casa de 
 Presupuestos Generales del Estado (España, 2019) según tipos de política. [Código](scripts/17_sankey.R).
 
 ![](graficos/17.png)
+
+### Día 18. Datos espaciales
+
+Mapa de Granada capital con calles y ríos. [Código](scripts/18_mapa.R).
+
+![](graficos/18.png)
