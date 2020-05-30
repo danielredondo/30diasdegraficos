@@ -109,3 +109,9 @@ Presupuestos Generales del Estado (España, 2019) según tipos de política. [C�
 Mapa de Granada capital con calles y ríos. [Código](scripts/18_mapa.R).
 
 ![](graficos/18.png)
+
+### Día 19. Stream graph
+
+COVID-19: Casos y defunciones diarias en España [Código](scripts/19_stream.R).
+
+![](graficos/19.png)
