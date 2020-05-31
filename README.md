@@ -115,3 +115,9 @@ Mapa de Granada capital con calles y ríos. [Código](scripts/18_mapa.R).
 COVID-19: Casos y defunciones diarias en España. [Código](scripts/19_stream.R).
 
 ![](graficos/19.png)
+
+### Día 20. Red
+
+Gráfico acíclico dirigido sobre la pandemia de COVID-19. [Código](scripts/20_red.R).
+
+![](graficos/20.png)
