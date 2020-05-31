@@ -25,7 +25,7 @@ ggplot(tidy_ggdag$data, aes(x = x, y = y, xend = xend, yend = yend)) +
     geom_dag_node() +
     geom_dag_text() +
     theme_dag() +
-    annotate("text", x = -0.1, y = 0.6, size = 6,
+    annotate("text", x = -0.1, y = 1.1, size = 6,
              label = toupper("C = Coronavirus\nEA = Estado de alarma\nD = Distanciamiento físico\nCD = Clases a distancia\nTD = Trabajo a distancia\nT = Todo el mundo es epidemiólogo\n"),
              hjust = 0, family = "Impact")
 ggsave("20.png", width = 12, height = 7, dpi = 300)
