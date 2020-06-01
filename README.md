@@ -127,3 +127,9 @@ Gráfico acíclico dirigido sobre la pandemia de COVID-19. [Código](scripts/20_
 Relación goles/partido en La Liga 19-20. Etiquetados los 10 jugadores con mayor proporción goles/partido y más de 5 partidos jugados. [Código](scripts/21_anotaciones.R).
 
 ![](graficos/21.png)
+
+### Día 22. Datos textuales
+
+Nube de palabras del "Romancero Gitano" de Federico García Lorca, con las 100 palabras más frecuentes. [Código](scripts/22_texto.R).
+
+![](graficos/22.png)
