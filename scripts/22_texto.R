@@ -83,6 +83,6 @@ html_to_text <- function(url) {
 # source('http://www.sthda.com/upload/rquery_wordcloud.r')
 filePath <- "https://raw.githubusercontent.com/vladwelt/buscador/master/documentos/Romancero%20gitano%20-%20Federico%20Garcia%20Lorca.txt"
 res <- rquery.wordcloud(filePath, type = "file", lang = "spanish", max.words = 100)
-svg("22.svg")
+png("22.png", width = 6, height = 6, units = "in", res = 900)
 res <- rquery.wordcloud(filePath, type = "file", lang = "spanish", max.words = 100)
 dev.off()
