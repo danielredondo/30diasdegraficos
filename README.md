@@ -133,3 +133,10 @@ Relación goles/partido en La Liga 19-20. Etiquetados los 10 jugadores con mayor
 Nube de palabras del "Romancero Gitano" de Federico García Lorca, con las 100 palabras más frecuentes. [Código](scripts/22_texto.R).
 
 ![](graficos/22.png)
+
+### Día 23. Datos textuales
+
+*The Office*: Distribución de frases por temporadas y personajes principales (Michael, Dwight, Jim, Pam, Andy). [Código](scripts/23_sunburst.R).
+
+![](graficos/23.png)
+
