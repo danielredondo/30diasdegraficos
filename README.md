@@ -4,55 +4,55 @@
 
 ### Día 1. Gráfico de barras
 
-Histograma del índice de masa corporal en adultos, según la Encuesta Nacional de Salud de 2017. [Código](scripts/1_barras.R).
+Histograma del índice de masa corporal en adultos, según la Encuesta Nacional de Salud de 2017. [Código](scripts/01_barras.R).
 
 ![](graficos/1.png)
 
 ### Día 2. Gráfico de líneas
 
-Número de visitas diarias a la página de R en Wikipedia en español desde 2018. [Código](scripts/2_lineas.R).
+Número de visitas diarias a la página de R en Wikipedia en español desde 2018. [Código](scripts/02_lineas.R).
 
 ![](graficos/2.png)
 
 ### Día 3. Gráfico de puntos/burbujas
 
-Distribución de los premios de lotería de 2018. [Código](scripts/3_burbujas.R).
+Distribución de los premios de lotería de 2018. [Código](scripts/03_burbujas.R).
 
 ![](graficos/3.png)
 
 ### Día 4. Gráfico con facetas
 
-Relación entre estadísticas de ataque y defensa según tipo de Pokémon. [Código](scripts/4_facetas.R).
+Relación entre estadísticas de ataque y defensa según tipo de Pokémon. [Código](scripts/04_facetas.R).
 
 ![](graficos/4.png)
 
 ### Día 5. Gráfico de arco
 
-Relaciones entre los personajes de la casa Lannister durante la primera temporada de Juego de Tronos. [Código](scripts/5_arco.R).
+Relaciones entre los personajes de la casa Lannister durante la primera temporada de Juego de Tronos. [Código](scripts/05_arco.R).
 
 ![](graficos/5.png)
 
 ### Día 6. Gráfico de donut :doughnut:
 
-Número de bebés de Estados Unidos que se llaman "Daniel" por década (1880-2009). [Código](scripts/6_donut.R).
+Número de bebés de Estados Unidos que se llaman "Daniel" por década (1880-2009). [Código](scripts/06_donut.R).
 
 ![](graficos/6.png)
 
 ### Día 7. Gráfico ridgeline
 
-Relieve de la provincia de Granada. [Código](scripts/7_ridgeline.R).
+Relieve de la provincia de Granada. [Código](scripts/07_ridgeline.R).
 
 ![](graficos/7.png)
 
 ### Día 8. Gráfico de contorno
 
-Imitación de la portada del disco "[Super 8](https://m.eldiario.es/fotos/Portada-disco-Super_EDIIMA20190503_0693_5.jpg)" de Los Planetas. [Código](scripts/8_contorno.R).
+Imitación de la portada del disco "[Super 8](https://m.eldiario.es/fotos/Portada-disco-Super_EDIIMA20190503_0693_5.jpg)" de Los Planetas. [Código](scripts/08_contorno.R).
 
 ![](graficos/8.png)
 
 ### Día 9. Áreas apiladas
 
-Distribución por género de los comités de las Jornadas de Usuarios de R en España. [Código](scripts/9_areas_apiladas.R).
+Distribución por género de los comités de las Jornadas de Usuarios de R en España. [Código](scripts/09_areas_apiladas.R).
 
 ![](graficos/9.png)
 
@@ -140,3 +140,8 @@ Nube de palabras del "Romancero Gitano" de Federico García Lorca, con las 100 p
 
 ![](graficos/23.png)
 
+### Día 24. Coropletas
+
+Mapa de privación en España por sección censal (2011). [Código](scripts/24_coropletas.R).
+
+![](graficos/24.png)
