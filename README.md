@@ -134,7 +134,7 @@ Nube de palabras del "Romancero Gitano" de Federico García Lorca, con las 100 p
 
 ![](graficos/22.png)
 
-### Día 23. Datos textuales
+### Día 23. Gráficos de proyección solar (*sunburst*)
 
 *The Office*: Distribución de frases por temporadas y personajes principales (Michael, Dwight, Jim, Pam, Andy). [Código](scripts/23_sunburst.R).
 
