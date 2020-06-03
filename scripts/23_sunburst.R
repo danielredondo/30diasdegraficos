@@ -2,6 +2,7 @@
 library(sunburstR)
 library(schrute)
 library(RColorBrewer)
+library(dplyr)
 
 theoffice %>%
   filter(character %in% c("Michael", "Dwight", "Jim", "Pam", "Andy")) %>% 
