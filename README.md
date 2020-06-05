@@ -145,3 +145,9 @@ Nube de palabras del "Romancero Gitano" de Federico García Lorca, con las 100 p
 Mapa de privación en España por sección censal (2011). [Código](scripts/24_coropletas.R).
 
 ![](graficos/24.png)
+
+### Día 25. Gráfico de violin
+
+Altura por sexos en España. [Código](scripts/25_violin.R).
+
+![](graficos/25.png)
