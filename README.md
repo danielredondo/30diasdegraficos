@@ -151,3 +151,9 @@ Mapa de privación en España por sección censal (2011). [Código](scripts/24_c
 Altura por sexos en España. [Código](scripts/25_violin.R).
 
 ![](graficos/25.png)
+
+## Día 26. Diagramas de Marimekko
+
+Incidencia de cáncer en 2018 por sexo y localización anatómica. [Código](scripts/26_marimekko.R).
+
+![](graficos/26.png) 
