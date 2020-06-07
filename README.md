@@ -146,7 +146,7 @@ Mapa de privación en España por sección censal (2011). [Código](scripts/24_c
 
 ![](graficos/24.png)
 
-### Día 25. Gráfico de violin
+### Día 25. Gráfico de violín
 
 Altura por sexos en España. [Código](scripts/25_violin.R).
 
@@ -157,3 +157,10 @@ Altura por sexos en España. [Código](scripts/25_violin.R).
 Incidencia de cáncer en 2018 por sexo y localización anatómica. [Código](scripts/26_marimekko.R).
 
 ![](graficos/26.png) 
+
+## Día 27. Gráficos animados
+
+Tasa de paro en España por sexos, 2002-2020. [Código](scripts/27_animado.R).
+
+![](graficos/27.gif) 
+
