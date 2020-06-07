@@ -164,3 +164,8 @@ Tasa de paro en España por sexos, 2002-2020. [Código](scripts/27_animado.R).
 
 ![](graficos/27.gif) 
 
+## Día 28. Diagramas de cuerdas
+
+Visualizando el número π: veces que se pasa de un número a otro dentro de los primeros 1000 decimales de Pi. [Código](scripts/28_cuerdas.R).
+
+![](graficos/28.png) 
