@@ -30,7 +30,7 @@ names(grid.col) <- 0:9
 png("28_extra.png", width = 8, height = 8, units = "in", res = 600)
 chordDiagram(data, row.col = rainbow(10), grid.col = grid.col, order = 0:9,
              transparency = 0.2, annotationTrack = c("name", "grid"))
-title("Visualizando el número Pi")
+title(expression(paste("Visualizando ", pi)))
 text(0.75, -1, "danielredondo.com", cex = 1.25, font = 8)
 dev.off()
 
@@ -42,6 +42,6 @@ names(grid.col) <- 0:9
 png("28.png", width = 8, height = 8, units = "in", res = 600)
 chordDiagram(adjacencyData, row.col = rainbow(10), grid.col = grid.col, 
              link.border = "black", transparency = 0, annotationTrack = c("name", "grid"))
-title("Visualizando el número Pi")
+title(expression(paste("Visualizando ", pi)))
 text(0.75, -1, "danielredondo.com", cex = 1.25, font = 8)
 dev.off()
