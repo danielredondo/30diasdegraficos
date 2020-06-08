@@ -169,3 +169,10 @@ Tasa de paro en España por sexos, 2002-2020. [Código](scripts/27_animado.R).
 Visualizando el número π: veces que se pasa de un número a otro dentro de los primeros 1000 decimales de Pi. [Código](scripts/28_cuerdas.R).
 
 ![](graficos/28.png) 
+
+## Día 29. Gráfico de coordenadas paralelas
+
+Estadísticas de los jugadores de FIFA 20 según posición. [Código](scripts/29_coordenadas_paralelas.R).
+
+![](graficos/29.png) 
+
