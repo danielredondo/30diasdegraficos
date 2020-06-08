@@ -1,8 +1,9 @@
-# Coloreando números irracionales
+# Más info: https://danielredondo.com/posts/20200608_visualizando_irracionales/
+
+# Carga de paquetes 
 library(circlize)
 library(dplyr)
 
-# https://decimal.info/digits-of-pi/value-of-pi-to-2000-decimal-places.html
 # 1000 decimales de PI
 decimales <- "1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094330572703657595919530921861173819326117931051185480744623799627495673518857527248912279381830119491298336733624406566430860213949463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409012249534301465495853710507922796892589235420199561121290219608640344181598136297747713099605187072113499999983729780499510597317328160963185950244594553469083026425223082533446850352619311881710100031378387528865875332083814206171776691473035982534904287554687311595628638823537875937519577818577805321712268066130019278766111959092164201989"
 
@@ -12,36 +13,26 @@ decimales %>%
   unlist -> decimales
 length(decimales)
 
-# Creación de las conexiones entre números
-origin <- NA
-destination <- NA
+origen <- NA
+destino <- NA
 for(i in 2:length(decimales)){
-  origin <- c(origin, decimales[i - 1])
-  destination <- c(destination, decimales[i])
+  origen <- c(origen, decimales[i - 1])
+  destino <- c(destino, decimales[i])
 }
-data <- data.frame(origin, destination)
+data <- data.frame(origen, destino)
+# Se quitan los NA del principio
 data <- data[-1,]
 head(data)
 
-# Gráfico sin agrupar
+adjacencyData <- with(data, table(origen, destino))
+adjacencyData
+
 grid.col <- rainbow(10)
 names(grid.col) <- 0:9
 
-png("28_extra.png", width = 8, height = 8, units = "in", res = 600)
-chordDiagram(data, row.col = rainbow(10), grid.col = grid.col, order = 0:9,
-             transparency = 0.2, annotationTrack = c("name", "grid"))
+chordDiagram(adjacencyData, row.col = grid.col, grid.col = grid.col, 
+             link.border = "black", transparency = 0,
+             annotationTrack = c("name", "grid"))
 title(expression(paste("Visualizando ", pi)))
-text(0.75, -1, "danielredondo.com", cex = 1.25, font = 8)
-dev.off()
-
-# Gráfico agrupado
-adjacencyData <- with(data, table(origin, destination))
-grid.col <- rainbow(10)
-names(grid.col) <- 0:9
-
-png("28.png", width = 8, height = 8, units = "in", res = 600)
-chordDiagram(adjacencyData, row.col = rainbow(10), grid.col = grid.col, 
-             link.border = "black", transparency = 0, annotationTrack = c("name", "grid"))
-title(expression(paste("Visualizando ", pi)))
-text(0.75, -1, "danielredondo.com", cex = 1.25, font = 8)
-dev.off()
+text(1.05, -1, "danielredondo.com", font = 8)
+text(0.02, 0.015, expression(pi))
