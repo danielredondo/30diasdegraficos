@@ -176,3 +176,8 @@ Estadísticas de los jugadores de FIFA 20 según posición. [Código](scripts/29
 
 ![](graficos/29.png) 
 
+## Día 30. Gráfico de área polar
+
+Defunciones por cáncer de páncreas en Espala, 1999-2018. [Código](scripts/30_area_polar.R).
+
+![](graficos/30.png) 
