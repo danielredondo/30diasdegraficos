@@ -11,7 +11,6 @@ loadfonts(device = "win")
 defunciones <- read.csv2("datasets/defunciones_pancreas.csv")
 names(defunciones) <- c("Sexo", "año", "def")
 
-# Sin coordenadas polares
 ggplot(defunciones, aes(x = año, y = def, fill = Sexo)) + 
   geom_hline(yintercept = seq(0, 7500, 1500), colour = "black", size = .5, lty = 2) +
   geom_col(width = 1.0, alpha = 1, col = "black") +
@@ -19,6 +18,7 @@ ggplot(defunciones, aes(x = año, y = def, fill = Sexo)) +
   scale_fill_brewer(palette = "Dark2") +
   scale_x_continuous(name = "", breaks = 1999:2018, labels = 1999:2018) +
   theme_light() +
+  # Añadir coordenadas polares
   coord_polar() + 
   ggtitle("Defunciones por cáncer de páncreas en España, 1999-2018",
           "Fuente: Ministerio de Sanidad, Consumo y Bienestar Social") +
