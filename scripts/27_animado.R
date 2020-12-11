@@ -29,7 +29,7 @@ ggplot(paro, aes(x = trimestre_temporal, as.numeric(paro), group = Sexo, col = S
 grafico <- ggplot(paro, aes(x = trimestre_temporal, as.numeric(paro), group = Sexo, col = Sexo)) + 
   geom_line(size = 1.2) +
   geom_point(size = 2.5) +
-  scale_y_continuous(name = "Tssa de paro", breaks = seq(0, 30, 5), limits = c(0, 30)) +
+  scale_y_continuous(name = "Tasa de paro", breaks = seq(0, 30, 5), limits = c(0, 30)) +
   scale_color_brewer(palette = "Dark2") +
   scale_x_continuous(name = "", breaks = seq(1, 73, 4), labels = paste0(2002:2020, "-T1")) +
   theme_light() +
