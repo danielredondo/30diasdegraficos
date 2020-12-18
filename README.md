@@ -74,7 +74,7 @@ Puntuación en IMDb de las películas de Pedro Almodóvar. [Código](scripts/12_
 
 ![](graficos/12.png)
 
-### Día 13. Gráfico de piruleta
+### Día 13. Gráfico de datos temporales
 
 Defunciones diarias por coronavirus en España. [Código](scripts/13_tiempo.R).
 
