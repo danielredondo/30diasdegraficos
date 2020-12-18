@@ -1,11 +1,11 @@
-# Libraries
+# Paquetes
 library(dplyr)
-#library(hrbrthemes)
 library(GGally)
 library(viridis)
+library(reshape2)
 
 # Datos: https://www.kaggle.com/stefanoleone992/fifa-20-complete-player-dataset#players_20.csv
-data <- read.csv(file = "datasets/players_20.csv") %>% 
+data <- read.csv(file = "../datasets/players_20.csv") %>% 
   filter(overall >= 80) %>% 
   select(Disparo = shooting,  Regate = dribbling, Velocidad = pace, Pase = passing,
          Físico = physic,  Defensa = defending, player_positions) %>% 
@@ -23,13 +23,23 @@ data[data$player_positions %in% c("CF", "ST", "LW", "RW"), "player_positions"] <
 data$player_positions <- ordered(factor(data$player_positions, levels = c("Defensa", "Mediocentro", "Atacante")))
 table(data$player_positions)
 
+# Cálculo de medias
+medias <- data %>%
+  group_by(player_positions) %>%
+  summarize_all(mean) %>% 
+  melt
+
 # Plot
 ggparcoord(data,
            scale = "globalminmax",
            columns = 1:6, groupColumn = 7,
-           showPoints = TRUE, 
+           showPoints = F, 
            title = "Estadísticas de los jugadores de FIFA 20 por posición",
-           alphaLines = 0.3) + 
+           alphaLines = 0.2,
+           mapping = ggplot2::aes(size = .4, show_guide=TRUE)) + 
+  ggplot2::scale_size_identity() + 
+  geom_line(data = medias, mapping = aes(y = value, x = variable, group = player_positions, color = player_positions),
+            size = 1.5, inherit.aes = FALSE) + 
   scale_color_viridis(discrete = TRUE) +
   scale_y_continuous("Puntuación", breaks = seq(20, 100, 20), limits = c(20, 100)) + 
   labs(color = "Posición") +
@@ -39,6 +49,8 @@ ggparcoord(data,
         axis.title.x = element_blank(),
         axis.title.y = element_text(size = 13),
         legend.text = element_text(size = 13),
-        legend.title = element_text(size = 13))
+        legend.title = element_text(size = 13),
+        # Ampliar distancia entre categorías de la leyenda
+        legend.key.size = unit(1, "cm"))
 
 ggsave("29.png", width = 10, height = 8)
