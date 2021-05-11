@@ -1,18 +1,23 @@
 # ----- Día 1: barras ----- 
+
+# Carga de paquetes
 library(ggplot2)
 library(dplyr)
 
-#Importar ENSE -> https://danielredondo.com/posts/20181010_ens/
+# Importación de ENSE a RData -> https://danielredondo.com/posts/20181010_ens/
 load("datasets/ense2017.RData")
 
-# Quitar NS/NC y NAs
+# Quitar NS/NC y NAs de las variables altura y peso
 tabla <- tabla %>% filter(S110<998) %>% filter(!is.na(S110))
 tabla <- tabla %>% filter(S109<998) %>% filter(!is.na(S109))
 
+# Cálculo de IMC
 tabla <- tabla %>% mutate(imc = 10000 * S110/(S109^2))
 
+# Resumen de IMC
 summary(tabla$imc)
 
+# Gráfico
 ggplot(tabla, aes(x = imc)) +
   geom_histogram(aes(y = (..count..)/sum(..count..)), col = "black",
                  fill = "firebrick", binwidth = 1) + 

@@ -10,13 +10,13 @@ library(broom)
 library(ggplot2)
 library(viridis)
 
-# Layer with census tracts
+# Layer with census tracts of Spain, 2011 (Instituto Nacional de Estadística)
 # http://ine.es/censos2011_datos/cen11_datos_resultados.htm
 sc <- readOGR("SECC_CPV_E_20111101_01_R_INE.shp",
               encoding = "utf8", use_iconv = TRUE) %>%
   spTransform(CRS("+init=epsg:4326"))
 
-# Spanish Deprivation Index
+# Spanish Deprivation Index, 2011 (Sociedad Española de Epidemiología)
 # https://www.seepidemiologia.es/gruposdetrabajo.php?contenido=gruposdetrabajosub6
 ip <- read_xlsx("IP2011_RE.xlsx")
 
@@ -42,7 +42,7 @@ sc_df <- left_join(sc_tidy, sc_names, by = "id") %>%
 canaries_line <- data.frame(long = c(0, 0, 5),
                             lat = c(35, 37.5, 37.5))
 
-# Segunda paleta: azules
+# Define palette
 q <- quantile(sc_df$IP2011, probs = seq(0, 1, 1/5))
 q
 library(leaflet)
